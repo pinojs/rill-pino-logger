@@ -5,7 +5,7 @@
 
 Currently the **only** production logger available for rill.
 
-To our knowledge, `rill-pino-logger` is the [fastest](#benchmarks) JSON [rill](http://npm.im/rill) logger in town.
+To our knowledge, `rill-pino-logger` is the [fastest](#benchmarks) [rill](http://npm.im/rill) logger in town.
 
 * [Benchmarks](#benchmarks)
 * [Installation](#install)
