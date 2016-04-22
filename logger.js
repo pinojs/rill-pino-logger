@@ -15,7 +15,6 @@ function logger (opts, stream) {
   return pino
 }
 
-// overriding `onerror` is much faster that using try/catch
 function catchErr (e, ctx) {
   ctx.log.error({
     res: ctx.res,
