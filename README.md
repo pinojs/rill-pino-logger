@@ -60,7 +60,7 @@ app.listen({port: 3000})
 
 ```
 ```
-$ node example.js | pino
+$ node --harmony-destructuring example.js | pino
 [2016-04-22T11:49:01.388Z] INFO (29134 on MacBook-Pro-4.local): something else
     req: {
       "id": 1,
@@ -116,7 +116,7 @@ app.listen(3000)
 ```
 
 ```
-$ node error-example.js | pino
+$ node --harmony-destructuring error-example.js | pino
 [2016-04-22T11:47:49.838Z] ERROR (29124 on MacBook-Pro-4.local): request errored
     res: {}
     err: {
