@@ -1,0 +1,39 @@
+{
+  "name": "rill-pino-logger",
+  "version": "1.0.0",
+  "description": "pino logging rill middleware",
+  "main": "server.js",
+  "browser": "client.js",
+  "scripts": {
+    "test": "standard && tap -R spec test.js",
+    "start": "node server.js"
+  },
+  "precommit": "test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/rill-pino-logger.git"
+  },
+  "keywords": [
+    "rill",
+    "http",
+    "logger",
+    "fast",
+    "pino"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/rill-pino-logger/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/rill-pino-logger#readme",
+  "dependencies": {
+    "pino-http": "^1.0.8"
+  },
+  "devDependencies": {
+    "@rill/logger": "^1.0.0",
+    "rill": "^0.5.15",
+    "split2": "^2.0.1",
+    "standard": "^6.0.8",
+    "tap": "^5.7.1"
+  },
+  "author": "David Mark Clements"
+}
