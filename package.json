@@ -9,10 +9,6 @@
     "start": "node server.js"
   },
   "precommit": "test",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidmarkclements/rill-pino-logger.git"
-  },
   "keywords": [
     "rill",
     "http",
@@ -21,10 +17,6 @@
     "pino"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/davidmarkclements/rill-pino-logger/issues"
-  },
-  "homepage": "https://github.com/davidmarkclements/rill-pino-logger#readme",
   "dependencies": {
     "pino-http": "^1.0.8"
   },
@@ -35,5 +27,13 @@
     "standard": "^6.0.8",
     "tap": "^5.7.1"
   },
-  "author": "David Mark Clements"
+  "author": "David Mark Clements",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinojs/rill-pino-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pinojs/rill-pino-logger/issues"
+  },
+  "homepage": "https://github.com/pinojs/rill-pino-logger#readme"
 }
