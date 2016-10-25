@@ -1,7 +1,7 @@
-# rill-pino-logger&nbsp;&nbsp;[![Build Status](https://travis-ci.org/davidmarkclements/rill-pino-logger.svg)](https://travis-ci.org/davidmarkclements/rill-pino-logger)
+# rill-pino-logger&nbsp;&nbsp;[![Build Status](https://travis-ci.org/pinojs/rill-pino-logger.svg)](https://travis-ci.org/pinojs/rill-pino-logger)
 
 
-[pino](https://github.com/mcollina/pino) logging [rill](http://npm.im/rill) middleware
+[pino](https://github.com/pinojs/pino) logging [rill](http://npm.im/rill) middleware
 
 Currently the **only** production logger available for rill.
 
@@ -20,7 +20,7 @@ To our knowledge, `rill-pino-logger` is the [fastest](#benchmarks) [rill](http:/
 
 Benchmarks log each request/response pair while returning
 `'hello world'`, using
-[autocannon](https://github.com/mcollina/autocannon) with 100
+[autocannon](https://github.com/pinojs/autocannon) with 100
 connections and pipelining set to 1 (rill can't handle pipelining): `autocannon -c 100 -p 1 http://localhost:3000`.
 
 * `rill-logger`: 10529.82 req/sec
