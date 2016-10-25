@@ -1,6 +1,6 @@
 {
   "name": "rill-pino-logger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "pino logging rill middleware",
   "main": "server.js",
   "browser": "client.js",
